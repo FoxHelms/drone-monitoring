@@ -8,7 +8,7 @@ Using Grafana and Kafka to monitor commercial drone flight data, such as battery
 
 Turn your Tello drone on and connect to its WiFi (station mode does not support the camera, so don't use it)
 
-Run `./drive_drone` to drive drone.
+Compile `udp_client.cpp` and run executable to drive drone.
 
 Run `drone_state_producer.py` and `consumer.py` to track drone state using Kafka
 
